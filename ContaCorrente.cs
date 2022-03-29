@@ -4,9 +4,9 @@ namespace POO1
 {
     public class ContaCorrente
     {
-        public string titular;
-        public int agencia;
-        public int conta;
+        public Cliente? titular;
+        public int Agencia { get; set; }
+        public int Conta { get; set; }
         public double saldo = 100;
 
         public double Sacar(double valor)
